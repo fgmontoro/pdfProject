@@ -1,0 +1,248 @@
+<section id="dashboard-view" class="mainbar">
+  <sectionclass="matter">
+    <h1>IMPRIMIR</h1>
+    <div  class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="today-datas">
+            <li class="blightblue">
+              <div class="pull-left"><i class="fa fa-plane"></i></div>
+              <div class="datas-text pull-right">
+                <span class="bold">May 18 - 19, 2015</span> Castle Resort, Neverland
+              </div>
+              <div class="clearfix"></div>
+            </li>
+
+            <li class="borange">
+              <div class="pull-left"><i class="fa fa-envelope"></i></div>
+              <div class="datas-text pull-right">
+                <span class="bold">{{vm.messageCount}}</span> Messages
+              </div>
+              <div class="clearfix"></div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <button ng-click="vm.toJsPDF()">jsPDF</button>
+      <button ng-click="vm.tohtml2()">tohtml2</button>
+      <button ng-click="vm.toPDFMake()">toPDFMake</button>
+      <button ng-click="vm.otro()">otro</button>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div id="exportable" class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.lastName}}</td>
+                    <td>{{p.age}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div id="exportable" class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.lastName}}</td>
+                    <td>{{p.age}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div id="exportable" class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.lastName}}</td>
+                    <td>{{p.age}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div id="exportable" class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.lastName}}</td>
+                    <td>{{p.age}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div id="exportable" class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.lastName}}</td>
+                    <td>{{p.age}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div id="exportable" class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.lastName}}</td>
+                    <td>{{p.age}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="table-title">
+          <h3>Data Table</h3>
+        </div>
+        <table class="table-fill">
+          <thead>
+            <tr>
+              <th class="text-left">Month</th>
+              <th class="text-left">Sales</th>
+            </tr>
+          </thead>
+          <tbody class="table-hover">
+            <tr>
+              <td class="text-left">January</td>
+              <td class="text-left">$ 50,000.00</td>
+            </tr>
+            <tr>
+              <td class="text-left">February</td>
+              <td class="text-left">$ 10,000.00</td>
+            </tr>
+            <tr>
+              <td class="text-left">March</td>
+              <td class="text-left">$ 85,000.00</td>
+            </tr>
+            <tr>
+              <td class="text-left">April</td>
+              <td class="text-left">$ 56,000.00</td>
+            </tr>
+            <tr>
+              <td class="text-left">May</td>
+              <td class="text-left">$ 98,000.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="col-md-6">
+          <div class="widget wgreen">
+            <div ht-widget-header title="{{vm.news.title}}" allow-collapse="true"></div>
+            <div class="widget-content text-center text-info">
+              <small>{{vm.news.description}}</small>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <canvas id="line" class="chart chart-line" chart-data="vm.data" chart-labels="vm.labels" chart-series="vm.series" chart-options="vm.options" chart-dataset-override="vm.datasetOverride" chart-click="vm.onClick"> </canvas>
+    </div>
+  </section>
+</section>
